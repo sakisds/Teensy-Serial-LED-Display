@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeensyLEDDisplayLibrary", "Teensy LED Display Library\TeensyLEDDisplayLibrary.csproj", "{CFCB846B-1301-415E-B88B-4C12F5BA76D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demos", "Demos", "{EC514C61-21B1-4672-B493-E201452A728C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryTest1", "LibraryTest1\LibraryTest1.csproj", "{21F55C64-31BF-4FB3-9FC8-A775D3D7A96B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plasma", "Plasma\Plasma.csproj", "{B762826E-6A08-48F4-93E2-7598AE4810B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrightnessTest", "BrightnessTest\BrightnessTest.csproj", "{D2AC558C-C43D-4522-8B4D-5EB490E4E4CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clock", "Clock\Clock.csproj", "{668109EC-988E-4A61-8643-E2D4138B68DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFCB846B-1301-415E-B88B-4C12F5BA76D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFCB846B-1301-415E-B88B-4C12F5BA76D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFCB846B-1301-415E-B88B-4C12F5BA76D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFCB846B-1301-415E-B88B-4C12F5BA76D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21F55C64-31BF-4FB3-9FC8-A775D3D7A96B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21F55C64-31BF-4FB3-9FC8-A775D3D7A96B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21F55C64-31BF-4FB3-9FC8-A775D3D7A96B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21F55C64-31BF-4FB3-9FC8-A775D3D7A96B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B762826E-6A08-48F4-93E2-7598AE4810B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B762826E-6A08-48F4-93E2-7598AE4810B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B762826E-6A08-48F4-93E2-7598AE4810B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B762826E-6A08-48F4-93E2-7598AE4810B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2AC558C-C43D-4522-8B4D-5EB490E4E4CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2AC558C-C43D-4522-8B4D-5EB490E4E4CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2AC558C-C43D-4522-8B4D-5EB490E4E4CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2AC558C-C43D-4522-8B4D-5EB490E4E4CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{668109EC-988E-4A61-8643-E2D4138B68DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{668109EC-988E-4A61-8643-E2D4138B68DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{668109EC-988E-4A61-8643-E2D4138B68DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{668109EC-988E-4A61-8643-E2D4138B68DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{21F55C64-31BF-4FB3-9FC8-A775D3D7A96B} = {EC514C61-21B1-4672-B493-E201452A728C}
+		{B762826E-6A08-48F4-93E2-7598AE4810B8} = {EC514C61-21B1-4672-B493-E201452A728C}
+		{D2AC558C-C43D-4522-8B4D-5EB490E4E4CF} = {EC514C61-21B1-4672-B493-E201452A728C}
+		{668109EC-988E-4A61-8643-E2D4138B68DE} = {EC514C61-21B1-4672-B493-E201452A728C}
+	EndGlobalSection
+EndGlobal
