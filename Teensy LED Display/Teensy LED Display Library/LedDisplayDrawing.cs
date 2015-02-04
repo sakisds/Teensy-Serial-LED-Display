@@ -23,7 +23,7 @@ namespace Teensy_LED_Display_Library {
         /// <param name="y">Y coords</param>
         /// <param name="color">24-bit color</param>
         public void DrawPixel(int x, int y, LedColor color) {
-            if (x < Width && y < Height && x > 0 && y > 0) // Standard display size checks
+            if (x < Width && y < Height && x >= 0 && y >= 0) // Standard display size checks
                 _frontBuffer[(y * Width) + x] = color;
         }
 
