@@ -12,7 +12,7 @@ namespace LibraryTest1 {
             display.SetBrightness(120);
             display.FillDisplay(LedColor.White);
             display.RefreshDisplay();
-            Thread.Sleep(1000000);
+            Thread.Sleep(1000);
             
             Console.WriteLine("Drawing Lines");
             display.DrawLine(0, 0, 5, 10, LedColor.Red);
