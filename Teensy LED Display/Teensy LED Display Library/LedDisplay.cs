@@ -32,11 +32,16 @@ namespace Teensy_LED_Display_Library {
         /// </summary>
         public bool ShowClock { get; set; }
 
+        /// <summary>
+        /// The color of the clock
+        /// </summary>
+        public LedColor ClockColor { get; set; }
+
         // The serial port
         private readonly SerialPort _serialPort;
 
         // Display buffers
-        private LedColor[] _backBuffer, _frontBuffer;
+        private readonly LedColor[] _backBuffer, _frontBuffer;
 
         /// <summary>
         /// Creates a new LED display
@@ -71,6 +76,7 @@ namespace Teensy_LED_Display_Library {
             // Some defaults
             AutoReconnect = true;
             ShowClock = false;
+            ClockColor = LedColor.White;
         }
 
         /// <summary>
@@ -102,7 +108,7 @@ namespace Teensy_LED_Display_Library {
                 // Draw clock if required
                 if (ShowClock) {
                     String time = DateTime.Now.ToString("HH:mm");
-                    DrawString(1, 4, LedColor.White, time, 0, Fonts.Font6X8);
+                    DrawString(1, 4, ClockColor, time, 0, Fonts.Font6X8);
                 }
 
                 // Update the display
