@@ -3,7 +3,7 @@
 ### Overview
 This is a library about controlling a LED display connected to a Teensy 3.1 using Serial.
 The library is mostly feature complete, it includes a couple of drawing functions as well
-for convinience.
+for convenience. More details about this project are available [here](http://thgeorgiou.com/desktop-led-display-with-teensy/).
 
 There are a couple of demos included:
 * Clock: Displays a simple digital clock on the display
